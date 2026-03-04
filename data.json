@@ -1,0 +1,1652 @@
+{
+  "words": [
+    {
+      "word": "except",
+      "definition": "prep.除……之外 conj.只是；除非；除……之外；要不是由于 v.不计，把……除外"
+    },
+    {
+      "word": "extra",
+      "definition": "adj.额外的；另外收费的；特大的 n.额外的事物；另外收费的事物；临时演员；（报纸的）号外；上等产品；（非击球所得的）附加分 adv.额外；特别地，格外地"
+    },
+    {
+      "word": "maximum",
+      "definition": "n.[数]极大，最大限度；最大量 adj.最高的；最多的；最大极限的"
+    },
+    {
+      "word": "minimum",
+      "definition": "n.最小值；最低限度；最小化；最小量 adj.最小的；最低的"
+    },
+    {
+      "word": "minus",
+      "definition": "prep.减，减去；零下；（非正式）无，欠缺 adj.减的；（尤指温度）负的，零下的 n.减号，负号"
+    },
+    {
+      "word": "several",
+      "definition": "adj.几个的；各自的 pron.几个；数个"
+    },
+    {
+      "word": "expert",
+      "definition": "n.专家；行家；能手 adj.熟练的；内行的；老练的"
+    },
+    {
+      "word": "camel",
+      "definition": "n.[畜牧][脊椎]骆驼；打捞浮筒；工作作风官僚 adj.驼色的；暗棕色的"
+    },
+    {
+      "word": "creature",
+      "definition": "n.动物，生物；人；创造物"
+    },
+    {
+      "word": "kangaroo",
+      "definition": "n.袋鼠"
+    },
+    {
+      "word": "goat",
+      "definition": "n.山羊；替罪羊（美俚）；色鬼（美俚）"
+    },
+    {
+      "word": "lamb",
+      "definition": "n.羔羊，小羊；羔羊肉 v.生小羊，产羔羊"
+    },
+    {
+      "word": "rooster",
+      "definition": "n.公鸡；狂妄自负的人"
+    },
+    {
+      "word": "bat",
+      "definition": "n.蝙蝠；球棒；球拍；批处理文件的扩展名 v.用球棒击球"
+    },
+    {
+      "word": "pest",
+      "definition": "n.害虫；有害之物；讨厌的人"
+    },
+    {
+      "word": "optional",
+      "definition": "adj.可选择的，随意的"
+    },
+    {
+      "word": "select",
+      "definition": "v.选择；（在计算机屏幕上）选定 n.被挑选者 adj.精选的"
+    },
+    {
+      "word": "selection",
+      "definition": "n.选择，挑选；选集，精选品"
+    },
+    {
+      "word": "detective",
+      "definition": "n.警探；私人侦探；刑侦 adj.侦探的；侦察的"
+    },
+    {
+      "word": "digest",
+      "definition": "vt.消化；吸收；融会贯通 vi.消化 n.文摘；摘要"
+    },
+    {
+      "word": "essay",
+      "definition": "n.散文；试图；随笔 vt.尝试；对…做试验"
+    },
+    {
+      "word": "fiction",
+      "definition": "n.小说；虚构，编造；谎言"
+    },
+    {
+      "word": "printing",
+      "definition": "n.印刷；印刷术"
+    },
+    {
+      "word": "powder",
+      "definition": "n.粉；粉末；[化工][军] 火药；尘土 vt.使成粉末；撒粉；搽粉于"
+    },
+    {
+      "word": "custom",
+      "definition": "n.习惯，惯例；风俗；经常光顾；[总称]（经常性的）顾客 adj.（衣服等）定做的，定制的"
+    },
+    {
+      "word": "cellphone",
+      "definition": "n.移动电话，手机"
+    },
+    {
+      "word": "expand",
+      "definition": "vt.扩张；使膨胀；详述 vi.发展；张开，展开"
+    },
+    {
+      "word": "laptop",
+      "definition": "n.膝上型轻便电脑，笔记本电脑"
+    },
+    {
+      "word": "telescope",
+      "definition": "n.望远镜 v.叠套缩短；精简，压缩；（车）相撞而嵌进"
+    },
+    {
+      "word": "typewriter",
+      "definition": "n.打字机"
+    },
+    {
+      "word": "upload",
+      "definition": "v.上载，上传 n.上传的数据"
+    },
+    {
+      "word": "acid",
+      "definition": "n.酸；<但>迷幻药 adj.酸的；讽刺的；刻薄的"
+    },
+    {
+      "word": "damage",
+      "definition": "n.损害；损毁；赔偿金 v.损害，毁坏"
+    },
+    {
+      "word": "destroy",
+      "definition": "vt.破坏；消灭；毁坏"
+    },
+    {
+      "word": "bay",
+      "definition": "n.海湾；狗吠声 v.向…吠叫；大声叫"
+    },
+    {
+      "word": "dam",
+      "definition": "n.水坝；水库；母畜 v.筑坝；阻止，控制"
+    },
+    {
+      "word": "fountain",
+      "definition": "n.喷泉，泉水；源泉"
+    },
+    {
+      "word": "shallow",
+      "definition": "adj.浅的；肤浅的 n.[地理]浅滩 v.使变浅"
+    },
+    {
+      "word": "hybrid",
+      "definition": "n.杂种，混血儿；混合物 adj.混合的；杂种的"
+    },
+    {
+      "word": "vehicle",
+      "definition": "n.[车辆]车辆；工具；交通工具；运载工具；传播媒介"
+    },
+    {
+      "word": "atom",
+      "definition": "n.原子"
+    },
+    {
+      "word": "carbon",
+      "definition": "n.[化学]碳；碳棒；复写纸"
+    },
+    {
+      "word": "clay",
+      "definition": "n.[土壤]粘土；泥土；肉体 v.用黏土处理"
+    },
+    {
+      "word": "coal",
+      "definition": "n.煤；煤块；木炭 v.供煤；采煤"
+    },
+    {
+      "word": "dioxide",
+      "definition": "n.二氧化物"
+    },
+    {
+      "word": "fuel",
+      "definition": "n.燃料；刺激因素 vt.给……提供燃料"
+    },
+    {
+      "word": "iron",
+      "definition": "n.熨斗；烙铁；坚强 vt.熨；用铁铸成 adj.铁的"
+    },
+    {
+      "word": "petrol",
+      "definition": "n.（英）汽油"
+    },
+    {
+      "word": "resource",
+      "definition": "n.资源，财力；办法；智谋"
+    },
+    {
+      "word": "steel",
+      "definition": "n.钢铁；钢制品；坚固 adj.钢制的"
+    },
+    {
+      "word": "loyal",
+      "definition": "adj.忠诚的，忠心的；忠贞的"
+    },
+    {
+      "word": "sincere",
+      "definition": "adj.真诚的；诚挚的；真实的"
+    },
+    {
+      "word": "congratulation",
+      "definition": "n.祝贺；贺辞"
+    },
+    {
+      "word": "message",
+      "definition": "n.消息；差使；启示；预言；广告词"
+    },
+    {
+      "word": "pardon",
+      "definition": "n.原谅；赦免；宽恕 vt.原谅；赦免"
+    },
+    {
+      "word": "promise",
+      "definition": "n.许诺，允诺；希望 v.允诺，许诺；有指望"
+    },
+    {
+      "word": "reply",
+      "definition": "v.回答；[法]答辩；回击 n.回答；答辩"
+    },
+    {
+      "word": "plenty",
+      "definition": "n.丰富，大量；充足 adj.足够的，很多的"
+    },
+    {
+      "word": "float",
+      "definition": "v.使漂浮，浮动；漂流，飘动；飘移；安排（贷款） n.彩车；浮板；鱼漂"
+    },
+    {
+      "word": "flow",
+      "definition": "v.（使）流动，涌流；流通；传播；流畅 n.流动；流量；涨潮"
+    },
+    {
+      "word": "pour",
+      "definition": "v.灌，倒；倾泻；（雨）倾盆而下；涌进，涌出 n.倾泻；倾盆大雨"
+    },
+    {
+      "word": "immediately",
+      "definition": "adv.立即，立刻；直接地 conj.一…就"
+    },
+    {
+      "word": "emotion",
+      "definition": "n.情感；情绪"
+    },
+    {
+      "word": "burden",
+      "definition": "n.负担；责任；船的载货量 vt.使负担；烦扰"
+    },
+    {
+      "word": "concern",
+      "definition": "vt.影响，牵扯（某人）；关系到，涉及；使担心 n.担心，忧虑；关爱；公司"
+    },
+    {
+      "word": "fancy",
+      "definition": "v.想做；喜爱；自负；想象 n.幻想；想象力；爱好 adj.复杂的；昂贵的；精致的"
+    },
+    {
+      "word": "freedom",
+      "definition": "n.自由，自主；直率"
+    },
+    {
+      "word": "fuss",
+      "definition": "n.大惊小怪；反对，抗议 v.瞎操心；忙乱；打扰"
+    },
+    {
+      "word": "hesitate",
+      "definition": "vi.踌躇，犹豫；不愿 vt.踌躇，犹豫"
+    },
+    {
+      "word": "hostile",
+      "definition": "adj.敌对的，敌方的；怀敌意的 n.敌对"
+    },
+    {
+      "word": "shame",
+      "definition": "n.羞耻，羞愧；憾事 vt.使丢脸，使羞愧"
+    },
+    {
+      "word": "sympathy",
+      "definition": "n.同情；慰问；赞同"
+    },
+    {
+      "word": "tendency",
+      "definition": "n.倾向，趋势；癖好"
+    },
+    {
+      "word": "agent",
+      "definition": "n.代理人，代理商；药剂；特工；动因"
+    },
+    {
+      "word": "co-author",
+      "definition": "n.合著者 vt.合著"
+    },
+    {
+      "word": "captain",
+      "definition": "n.队长，首领；船长；上尉 vt.指挥；率领"
+    },
+    {
+      "word": "chairman",
+      "definition": "n.主席，会长；董事长"
+    },
+    {
+      "word": "chemist",
+      "definition": "n.化学家；化学工作者；药剂师；炼金术士"
+    },
+    {
+      "word": "clerk",
+      "definition": "n.职员，办事员；店员；书记；记账员 vi.当销售员"
+    },
+    {
+      "word": "editor",
+      "definition": "n.编者，编辑；社论撰写人；编辑装置"
+    },
+    {
+      "word": "journalist",
+      "definition": "n.新闻工作者；报人；记日志者"
+    },
+    {
+      "word": "judge",
+      "definition": "n.法官；裁判员；鉴定人 v.判断；审判"
+    },
+    {
+      "word": "officer",
+      "definition": "n.军官，警官；公务员，政府官员；船长 vt.指挥"
+    },
+    {
+      "word": "operator",
+      "definition": "经营者；操作员；运营商；话务员；行家"
+    },
+    {
+      "word": "politician",
+      "definition": "n.政治家，政客"
+    },
+    {
+      "word": "sailor",
+      "definition": "n.水手，海员；乘船者"
+    },
+    {
+      "word": "secretary",
+      "definition": "n.秘书；书记；部长；大臣"
+    },
+    {
+      "word": "servant",
+      "definition": "n.仆人，佣人；公务员；雇工"
+    },
+    {
+      "word": "staff",
+      "definition": "n.职员；参谋；棒；五线谱 vt.供给人员"
+    },
+    {
+      "word": "tailor",
+      "definition": "n.裁缝 v.专门制作，订做；调整；迎合"
+    },
+    {
+      "word": "pillow",
+      "definition": "n.枕头 vt.垫；枕于... vi.枕着头"
+    },
+    {
+      "word": "quilt",
+      "definition": "n.被子；棉被 vt.东拼西凑地编；缝被子"
+    },
+    {
+      "word": "sheet",
+      "definition": "n.薄片，纸张；薄板；床单 vt.覆盖"
+    },
+    {
+      "word": "yawn",
+      "definition": "v.打哈欠；张得很开 n.打哈欠；乏味的人"
+    },
+    {
+      "word": "honor",
+      "definition": "n.荣誉；信用；头衔 vt.尊敬"
+    },
+    {
+      "word": "barbecue",
+      "definition": "n.烤肉；吃烤肉的野宴 vt.烧烤；烤肉"
+    },
+    {
+      "word": "boil",
+      "definition": "v.煮沸，（使）沸腾；翻腾 n.沸点；激昂"
+    },
+    {
+      "word": "fry",
+      "definition": "v.油炸，油煎 n.鱼苗；油炸食品；炸薯条"
+    },
+    {
+      "word": "recipe",
+      "definition": "n.食谱；[临床]处方；秘诀；烹饪法"
+    },
+    {
+      "word": "roast",
+      "definition": "v.烘，烤 n.烤肉；户外烧烤野餐 adj.（食物）烤过的"
+    },
+    {
+      "word": "roll",
+      "definition": "v.滚动；翻身；行驶；卷起 n.卷；柱形物；名单"
+    },
+    {
+      "word": "slice",
+      "definition": "n.薄片；部分；菜刀 vt.切下；将…切成薄片"
+    },
+    {
+      "word": "toast",
+      "definition": "n.干杯；烤面包 vt.向…祝酒 vi.烘烤"
+    },
+    {
+      "word": "melon",
+      "definition": "n.瓜；甜瓜；大肚子"
+    },
+    {
+      "word": "obey",
+      "definition": "vt.服从，听从；按照…行动 vi.服从"
+    },
+    {
+      "word": "confess",
+      "definition": "vt.承认；坦白；忏悔；供认"
+    },
+    {
+      "word": "restriction",
+      "definition": "n.限制；约束；束缚"
+    },
+    {
+      "word": "rigid",
+      "definition": "adj.严格的；僵硬的，死板的；坚硬的；精确的"
+    },
+    {
+      "word": "attack",
+      "definition": "n.攻击；抨击；疾病发作 v.攻击；抨击"
+    },
+    {
+      "word": "summary",
+      "definition": "n.总结，概要 adj.总结性的；简略的"
+    },
+    {
+      "word": "theory",
+      "definition": "n.理论；原理；学说；推测"
+    },
+    {
+      "word": "infer",
+      "definition": "vt.推断；推论 vi.推断；作出推论"
+    },
+    {
+      "word": "mention",
+      "definition": "vt.提到，谈到；提及 n.提及"
+    },
+    {
+      "word": "refer",
+      "definition": "vi.参考；涉及；提到；查阅 vt.涉及；委托"
+    },
+    {
+      "word": "advantage",
+      "definition": "n.优势；利益；有利条件 v.有利于"
+    },
+    {
+      "word": "caution",
+      "definition": "n.小心，谨慎；警告，警示 vt.警告"
+    },
+    {
+      "word": "cautious",
+      "definition": "adj.谨慎的；十分小心的"
+    },
+    {
+      "word": "dare",
+      "definition": "v.胆敢；激（某人做某事） n.挑战；激将"
+    },
+    {
+      "word": "earnest",
+      "definition": "adj.认真的，热心的；重要的 n.认真；定金"
+    },
+    {
+      "word": "faithful",
+      "definition": "adj.忠实的，忠诚的；如实的；准确可靠的"
+    },
+    {
+      "word": "genuine",
+      "definition": "adj.真实的，真正的；诚恳的"
+    },
+    {
+      "word": "modest",
+      "definition": "adj.谦虚的，谦逊的；适度的；端庄的；羞怯的"
+    },
+    {
+      "word": "sensitive",
+      "definition": "adj.敏感的；感觉的；灵敏的；易受伤害的 n.敏感的人"
+    },
+    {
+      "word": "strength",
+      "definition": "n.力量；力气；兵力；长处"
+    },
+    {
+      "word": "virtue",
+      "definition": "n.美德；优点；贞操；功效"
+    },
+    {
+      "word": "pure",
+      "definition": "adj.纯的；纯粹的；纯洁的；清白的"
+    },
+    {
+      "word": "superb",
+      "definition": "adj.极好的；华丽的；宏伟的"
+    },
+    {
+      "word": "psychological",
+      "definition": "adj.心理的；心理学的；精神上的"
+    },
+    {
+      "word": "decade",
+      "definition": "n.十年，十年期；十"
+    },
+    {
+      "word": "period",
+      "definition": "n.周期，期间；时期；一段时间；经期；课时"
+    },
+    {
+      "word": "dawn",
+      "definition": "n.黎明；开端 vt.破晓；出现；被领悟"
+    },
+    {
+      "word": "previous",
+      "definition": "adj.以前的；早先的；过早的"
+    },
+    {
+      "word": "meanwhile",
+      "definition": "adv.同时，其间 n.其间，其时"
+    },
+    {
+      "word": "credit card",
+      "definition": "信用卡；记帐卡"
+    },
+    {
+      "word": "fitness",
+      "definition": "n.健康；适当；适合性"
+    },
+    {
+      "word": "drone",
+      "definition": "n.雄蜂；嗡嗡的声音；懒惰者；无人机 vi.嗡嗡作声；混日子"
+    },
+    {
+      "word": "deliver",
+      "definition": "vt.交付；发表；递送；释放；给予（打击）；给…接生 vi.实现"
+    },
+    {
+      "word": "advanced",
+      "definition": "adj.先进的；高级的；晚期的；年老的"
+    },
+    {
+      "word": "artificial",
+      "definition": "adj.人造的；仿造的；虚伪的；非原产地的"
+    },
+    {
+      "word": "automate",
+      "definition": "vt.使自动化，使自动操作 vi.自动化"
+    },
+    {
+      "word": "automated",
+      "definition": "adj.自动化的；机械化的"
+    },
+    {
+      "word": "erase",
+      "definition": "vt.抹去；擦除 vi.被擦去，被抹掉"
+    },
+    {
+      "word": "state-of-the-art",
+      "definition": "adj.最先进的；已经发展的；达到最高水准的"
+    },
+    {
+      "word": "trend",
+      "definition": "n.趋势，倾向；走向 vi.趋向，伸向"
+    },
+    {
+      "word": "aquarium",
+      "definition": "n.水族馆；养鱼缸；水族箱"
+    },
+    {
+      "word": "entertainment",
+      "definition": "n.娱乐；消遣；款待"
+    },
+    {
+      "word": "CD",
+      "definition": "abbr.光盘，激光唱片；呼叫设备；商务部；创意总监"
+    },
+    {
+      "word": "CD-ROM",
+      "definition": "abbr.只读光盘驱动器"
+    },
+    {
+      "word": "DVD",
+      "definition": "abbr.数字化视频光盘"
+    },
+    {
+      "word": "VCD",
+      "definition": "abbr.视频高密光盘；可变电容二极管"
+    },
+    {
+      "word": "be associated with",
+      "definition": "和…联系在一起；与……有关"
+    },
+    {
+      "word": "exposure to",
+      "definition": "曝光：受到；显露"
+    },
+    {
+      "word": "composition",
+      "definition": "n.作文，作曲，作品；构成；合成物；成分"
+    },
+    {
+      "word": "consist",
+      "definition": "vi.由……组成；在于；符合"
+    },
+    {
+      "word": "divide",
+      "definition": "v.（使）分开，分成；分配，分担；分隔 n.分歧；分水岭"
+    },
+    {
+      "word": "quantity",
+      "definition": "n.量，数量；大量；总量"
+    },
+    {
+      "word": "separate",
+      "definition": "adj.分开的；单独的；不同的 v.（使）分离，分开；隔开"
+    },
+    {
+      "word": "aircraft",
+      "definition": "n.飞机，航空器"
+    },
+    {
+      "word": "airline",
+      "definition": "n.航空公司；航线 adj.航线的"
+    },
+    {
+      "word": "jeep",
+      "definition": "n.吉普车"
+    },
+    {
+      "word": "jet",
+      "definition": "n.喷射，喷嘴；喷气式飞机；黑玉 v.射出；乘喷气式飞机"
+    },
+    {
+      "word": "tyre",
+      "definition": "n.轮胎，轮箍 v.装轮胎于……"
+    },
+    {
+      "word": "edition",
+      "definition": "n.版本 版次 集"
+    },
+    {
+      "word": "collective",
+      "definition": "adj.集体的；共同的；集合的 n.集团；集合体"
+    },
+    {
+      "word": "original",
+      "definition": "adj.原来的；开始的；首创的，新颖的 n.原件，原版；原型"
+    },
+    {
+      "word": "sacrifice",
+      "definition": "n.牺牲；祭品；供奉 v.牺牲；献祭；亏本出售"
+    },
+    {
+      "word": "trick",
+      "definition": "n.诡计：恶作剧：窍门：花招 vt.欺骗：哄骗"
+    },
+    {
+      "word": "wavelength",
+      "definition": "n.[物] 波长"
+    },
+    {
+      "word": "analyse",
+      "definition": "vt.分析：分解：细察"
+    },
+    {
+      "word": "analysis",
+      "definition": "n.分析：分解：鉴定"
+    },
+    {
+      "word": "informal",
+      "definition": "adj.非正式的：不拘礼节的：随便的"
+    },
+    {
+      "word": "ceiling",
+      "definition": "n.天花板：上限"
+    },
+    {
+      "word": "marriage",
+      "definition": "n.结婚：婚姻生活：密切结合"
+    },
+    {
+      "word": "marry",
+      "definition": "vt.嫁：娶：与……结婚 vi.结婚"
+    },
+    {
+      "word": "cheat in online games",
+      "definition": "网络游戏作弊"
+    },
+    {
+      "word": "damage",
+      "definition": "n.损害；损毁；赔偿金 vi.损害；损毁"
+    },
+    {
+      "word": "deadly strike",
+      "definition": "致命打击"
+    },
+    {
+      "word": "defense",
+      "definition": "n.防卫，防护；防御措施；防守 vt.谋划抵御"
+    },
+    {
+      "word": "multiplayer",
+      "definition": "n.多人游戏；多玩家"
+    },
+    {
+      "word": "poison resist",
+      "definition": "毒药抵抗"
+    },
+    {
+      "word": "TV series",
+      "definition": "n.电视连续剧"
+    },
+    {
+      "word": "soap opera",
+      "definition": "肥皂剧（以家庭问题为题材的广播或电视连续剧）"
+    },
+    {
+      "word": "advertisement",
+      "definition": "n.广告，宣传"
+    },
+    {
+      "word": "deny",
+      "definition": "vt.否定，否认；拒绝给予 vi.否认；拒绝"
+    },
+    {
+      "word": "attractive",
+      "definition": "adj.吸引人的；有魅力的；引人注目的"
+    },
+    {
+      "word": "charming",
+      "definition": "adj.迷人的；可爱的 v.使陶醉"
+    },
+    {
+      "word": "mess",
+      "definition": "n.混乱；食堂，伙食团；困境；脏乱的东西 vt.弄乱"
+    },
+    {
+      "word": "solid",
+      "definition": "adj.固体的；可靠的；立体的；结实的 n.固体"
+    },
+    {
+      "word": "annoyed",
+      "definition": "adj.恼怒的；烦闷的"
+    },
+    {
+      "word": "disadvantage",
+      "definition": "n.缺点；不利条件；损失"
+    },
+    {
+      "word": "fault",
+      "definition": "n.故障；断层；错误；缺点 vi.弄错；挑剔"
+    },
+    {
+      "word": "selfish",
+      "definition": "adj.自私的；利己主义的"
+    },
+    {
+      "word": "stupid",
+      "definition": "adj.愚蠢的；麻木的；乏味的 n.傻瓜，笨蛋"
+    },
+    {
+      "word": "vain",
+      "definition": "adj.徒劳的；自负的；无结果的；无用的"
+    },
+    {
+      "word": "vice",
+      "definition": "n.恶习；缺点；老虎钳；卖淫 adj.副的；代替的"
+    },
+    {
+      "word": "district",
+      "definition": "n.区域；地方；行政区"
+    },
+    {
+      "word": "region",
+      "definition": "n.地区；范围；部位"
+    },
+    {
+      "word": "regional",
+      "definition": "adj.地区的；局部的；整个地区的"
+    },
+    {
+      "word": "agenda",
+      "definition": "n.议程；日常工作事项；日程表"
+    },
+    {
+      "word": "authority",
+      "definition": "n.权威；权力；当局"
+    },
+    {
+      "word": "committee",
+      "definition": "n.委员会"
+    },
+    {
+      "word": "conference",
+      "definition": "n.会议；讨论；协商；联盟 vi.举行会议"
+    },
+    {
+      "word": "league",
+      "definition": "n.联盟；社团；范畴 vt.使…结盟"
+    },
+    {
+      "word": "province",
+      "definition": "n.省；领域；职权"
+    },
+    {
+      "word": "union",
+      "definition": "n.联盟，协会；工会；联合"
+    },
+    {
+      "word": "candidate",
+      "definition": "n.候选人，候补者；应试者"
+    },
+    {
+      "word": "elect",
+      "definition": "v.选举；选择，决定 adj.卓越的；当选而尚未就职的"
+    },
+    {
+      "word": "policy",
+      "definition": "n.政策，方针；保险单"
+    },
+    {
+      "word": "conduct",
+      "definition": "v.组织，实施，进行；指挥（音乐）；带领 n.行为举止"
+    },
+    {
+      "word": "strike",
+      "definition": "v.撞击；打；突击；罢工；使打动 n.罢工；袭击；殴打"
+    },
+    {
+      "word": "draft",
+      "definition": "n.汇票；草稿；选派；气流 vt.起草；制定；征募"
+    },
+    {
+      "word": "liberty",
+      "definition": "n.自由；许可；冒失"
+    },
+    {
+      "word": "license",
+      "definition": "n.执照，许可证；特许 vt.许可；特许；发许可证给"
+    },
+    {
+      "word": "passenger",
+      "definition": "n.旅客；乘客；过路人；碍手碍脚的人"
+    },
+    {
+      "word": "avenue",
+      "definition": "n.大街；林荫大道；途径，手段，方法，渠道"
+    },
+    {
+      "word": "port",
+      "definition": "n.港口，口岸；端口；左舷 vi.转向左舷"
+    },
+    {
+      "word": "tease",
+      "definition": "vt.取笑；戏弄；梳理；欺负 n.戏弄；爱纠缠的小孩"
+    },
+    {
+      "word": "fade",
+      "definition": "vi.褪色；凋谢；逐渐消失 vt.使褪色"
+    },
+    {
+      "word": "shock",
+      "definition": "n.休克；震惊；震动；打击 vt.使休克；使震惊 adj.浓密的"
+    },
+    {
+      "word": "typhoon",
+      "definition": "n.[气象]台风"
+    },
+    {
+      "word": "burst",
+      "definition": "v.爆炸；戳破；爆裂；突然爆发 n.爆炸；猝发；迸发"
+    },
+    {
+      "word": "emergency",
+      "definition": "n.紧急情况；突发事件；非常时刻 adj.紧急的；备用的"
+    },
+    {
+      "word": "injure",
+      "definition": "vt.伤害，损害"
+    },
+    {
+      "word": "injury",
+      "definition": "n.伤害，损害；受伤处"
+    },
+    {
+      "word": "wound",
+      "definition": "n.创伤，伤口 vt.使受伤 vi.受伤，伤害"
+    },
+    {
+      "word": "murder",
+      "definition": "n.谋杀，谋杀罪 v.谋杀，犯谋杀罪；糟蹋，破坏"
+    },
+    {
+      "word": "accent",
+      "definition": "n.口音：重音：强调：特点 vt.强调：重读：带...口音讲话"
+    },
+    {
+      "word": "insist",
+      "definition": "vt.坚持，强调 vi.坚持，强调"
+    },
+    {
+      "word": "oppose",
+      "definition": "vt.反对：对抗，抗争 vi.反对"
+    },
+    {
+      "word": "repeat",
+      "definition": "v.重复说（或写）；照着说；再说一次 n.重复的行动；重播"
+    },
+    {
+      "word": "initial",
+      "definition": "adj.最初的：字首的 vt.用姓名的首字母签名 n.词首大写字母"
+    },
+    {
+      "word": "gradual",
+      "definition": "adj.逐渐的：平缓的 n.弥撒升阶圣歌集"
+    },
+    {
+      "word": "scan",
+      "definition": "vt.扫描：浏览：细看：详细调查 vi.扫描：扫掠 n.扫描：浏览"
+    },
+    {
+      "word": "visual",
+      "definition": "adj.视觉的，视力的：栩栩如生的"
+    },
+    {
+      "word": "opportunity",
+      "definition": "n.时机，机会"
+    },
+    {
+      "word": "surgeon",
+      "definition": "n.外科医生"
+    },
+    {
+      "word": "clone",
+      "definition": "n.克隆：无性系：无性繁殖 vt.无性繁殖，复制"
+    },
+    {
+      "word": "gene",
+      "definition": "n.[遗] 基因，遗传因子"
+    },
+    {
+      "word": "organ",
+      "definition": "n.器官：机构：风琴：管风琴"
+    },
+    {
+      "word": "capsule",
+      "definition": "n.胶囊：菊果：太空舱：小容器 adj.压缩的：概要的"
+    },
+    {
+      "word": "drug",
+      "definition": "n.药：毒品：麻醉药：滞销货 vt.使服麻醉药"
+    },
+    {
+      "word": "contact",
+      "definition": "n.接触，联系 vt.使接触，联系"
+    },
+    {
+      "word": "conversation",
+      "definition": "n.交谈，会话：社交：交往，交际：会谈"
+    },
+    {
+      "word": "delight",
+      "definition": "n.高兴 vi.高兴 vt.使高兴"
+    },
+    {
+      "word": "satisfaction",
+      "definition": "n.满意，满足：赔偿：乐事：赎罪"
+    },
+    {
+      "word": "politics",
+      "definition": "n.政治，政治学：政治活动：政纲"
+    },
+    {
+      "word": "superior",
+      "definition": "adj.上级的：优秀的，出众的：高傲的 n.上级，长官"
+    },
+    {
+      "word": "copy",
+      "definition": "n.副本：一册：稿件：作业本 vt.复制：抄写：抄袭"
+    },
+    {
+      "word": "attitude",
+      "definition": "n.态度：看法：意见：姿势"
+    },
+    {
+      "word": "regard",
+      "definition": "n.注意：尊重：问候：凝视 vt.注重，考虑：看待"
+    },
+    {
+      "word": "suppose",
+      "definition": "vt.假设：认为：让（虚拟语气）：推想 vi.猜想"
+    },
+    {
+      "word": "chrysanthemum",
+      "definition": "n.菊花"
+    },
+    {
+      "word": "bless",
+      "definition": "vt.祝福：保佑：赞美"
+    },
+    {
+      "word": "ascend",
+      "definition": "vi.上升：登高：追溯 vt.攀登，上升"
+    },
+    {
+      "word": "porridge",
+      "definition": "n.粥，糊：麦片粥 vt.服刑"
+    },
+    {
+      "word": "sausage",
+      "definition": "n.香肠：腊肠：装香肠的碎肉"
+    },
+    {
+      "word": "poisoning",
+      "definition": "n.中毒 v.毒害"
+    },
+    {
+      "word": "vending",
+      "definition": "n.销售 v.（小摊、售货机）出售（小商品，尤指食品）"
+    },
+    {
+      "word": "install",
+      "definition": "vt.安装；任命；安顿"
+    },
+    {
+      "word": "grocery",
+      "definition": "n.食品杂货店食品杂货"
+    },
+    {
+      "word": "diligence",
+      "definition": "n.勤奋，勤勉；注意的程度"
+    },
+    {
+      "word": "forgiveness",
+      "definition": "n.宽恕；宽仁之心"
+    },
+    {
+      "word": "moral",
+      "definition": "adj.道德的；精神上的；品性端正的 n.道德；寓意"
+    },
+    {
+      "word": "morality",
+      "definition": "n.道德；品行，美德"
+    },
+    {
+      "word": "passport",
+      "definition": "n.护照，通行证；手段"
+    },
+    {
+      "word": "fetch",
+      "definition": "vt.取来；接来；到达；吸引 vi.拿；取物；卖得"
+    },
+    {
+      "word": "drag",
+      "definition": "v.拖拉，拖曳；硬拉硬拽；强迫；拖累 n.拖；拖累；阻碍"
+    },
+    {
+      "word": "fasten",
+      "definition": "vt.使固定；集中于；扎牢；强加于 vi.扣紧；抓住"
+    },
+    {
+      "word": "grasp",
+      "definition": "v.抓牢，握紧；试图抓住；理解，领悟 n.抓，握；理解"
+    },
+    {
+      "word": "slide",
+      "definition": "v.滑动；平稳地走；悄悄移动；逐渐恶化 n.滑动；下跌；幻灯片"
+    },
+    {
+      "word": "seize",
+      "definition": "vt.抓住；夺取；理解；逮捕 vi.抓住；利用；（机器）卡住"
+    },
+    {
+      "word": "chip",
+      "definition": "n.炸薯条（片）；芯片，晶片；碎片；缺口 v.打缺，弄缺；铲"
+    },
+    {
+      "word": "monitor",
+      "definition": "n.监视器：监听器：监控器：显示屏：班长 vt.监控"
+    },
+    {
+      "word": "security",
+      "definition": "n.安全，安全性：保证：证券：抵押品 adj.安全的"
+    },
+    {
+      "word": "technique",
+      "definition": "n.技巧，技术：手法"
+    },
+    {
+      "word": "dispatch",
+      "definition": "v.派遣，发送：迅速处理，快速办妥 n.派遣，调遣；急件"
+    },
+    {
+      "word": "outline",
+      "definition": "n.轮廓：大纲：概要：略图 vt.概述：略述"
+    },
+    {
+      "word": "platform",
+      "definition": "n.平台：月台，站台：坛：讲台：厚底松糕鞋"
+    },
+    {
+      "word": "tutor",
+      "definition": "n.导师：家庭教师：助教 v.辅导：当家庭教师"
+    },
+    {
+      "word": "debate",
+      "definition": "n.辩论：（正式的）讨论 v.（尤指正式）讨论，辩论"
+    },
+    {
+      "word": "quiz",
+      "definition": "n.考查：恶作剧：课堂测验 vt.挖苦：对…进行测验"
+    },
+    {
+      "word": "horrible",
+      "definition": "adj.可怕的：极讨厌的"
+    },
+    {
+      "word": "panic",
+      "definition": "n.恐慌，惊慌：大恐慌 adj.恐慌的 vt.使恐慌"
+    },
+    {
+      "word": "terrify",
+      "definition": "vt.恐吓：使恐怖：使害怕"
+    },
+    {
+      "word": "terror",
+      "definition": "n.恐怖：恐怖行动：恐怖时期：可怕的人"
+    },
+    {
+      "word": "thus",
+      "definition": "adv.因此：从而：这样：如此"
+    },
+    {
+      "word": "adopt",
+      "definition": "vt.采取：接受：收养：正式通过 vi.采取：过继"
+    },
+    {
+      "word": "database",
+      "definition": "n.数据库，资料库"
+    },
+    {
+      "word": "conclusion",
+      "definition": "结论：结局：推论"
+    },
+    {
+      "word": "laboratory",
+      "definition": "n.实验室，研究室"
+    },
+    {
+      "word": "error",
+      "definition": "n.误差；错误；过失"
+    },
+    {
+      "word": "ignore",
+      "definition": "vt.驳回诉讼；忽视；不理睬"
+    },
+    {
+      "word": "hate",
+      "definition": "vt.憎恨；厌恶；遗憾 vi.仇恨 n.憎恨；反感"
+    },
+    {
+      "word": "annoy",
+      "definition": "vt.骚扰；惹恼；打搅 vi.惹恼；令人讨厌 n.烦恼"
+    },
+    {
+      "word": "anxious",
+      "definition": "adj.焦虑的；担忧的；渴望的；急切的"
+    },
+    {
+      "word": "guilty",
+      "definition": "adj.有罪的；内疚的"
+    },
+    {
+      "word": "envy",
+      "definition": "n.嫉妒，妒忌；羡慕 vt.嫉妒，妒忌；羡慕"
+    },
+    {
+      "word": "jog",
+      "definition": "vt.慢跑；轻推；蹒跚行进 vi.慢跑；轻推 n.慢跑；轻推"
+    },
+    {
+      "word": "diploma",
+      "definition": "n.毕业证书，学位证书；公文，文书；奖状"
+    },
+    {
+      "word": "proper",
+      "definition": "adj.适当的；本身的；特有的；正派的 adv.完全地"
+    },
+    {
+      "word": "agency",
+      "definition": "n.代理，中介；代理处，经销处；作用"
+    },
+    {
+      "word": "court",
+      "definition": "n.法院；球场；朝廷；奉承 vt.招致；向…献殷勤"
+    },
+    {
+      "word": "urban",
+      "definition": "adj.城市的；住在都市的"
+    },
+    {
+      "word": "heaven",
+      "definition": "n.天堂；天空；极乐"
+    },
+    {
+      "word": "cough",
+      "definition": "v.咳嗽；咳出；突然发出刺耳的声音 n.咳嗽，咳嗽声"
+    },
+    {
+      "word": "flexible",
+      "definition": "adj.灵活的；柔韧的；易弯曲的"
+    },
+    {
+      "word": "rewarding",
+      "definition": "adj.有益的，值得的；有报酬的，报答的"
+    },
+    {
+      "word": "boxing",
+      "definition": "n.拳击；装箱；围模；做箱的材料"
+    },
+    {
+      "word": "stadium",
+      "definition": "n.体育场；露天大型运动场"
+    },
+    {
+      "word": "favour",
+      "definition": "n.偏爱；赞同；善行 vt.赞成；喜爱；有助于"
+    },
+    {
+      "word": "reliable",
+      "definition": "adj.可靠的；可信赖的 n.可靠的人"
+    },
+    {
+      "word": "sociable",
+      "definition": "adj.社交的；好交际的；友善的 n.联谊会"
+    },
+    {
+      "word": "calculator",
+      "definition": "n.计算器；计算者"
+    },
+    {
+      "word": "flashlight",
+      "definition": "n.手电筒；闪光灯"
+    },
+    {
+      "word": "luggage",
+      "definition": "n.行李；皮箱"
+    },
+    {
+      "word": "criticize",
+      "definition": "vt.批评；评论；非难 vi.批评；评论；苛求"
+    },
+    {
+      "word": "facial",
+      "definition": "adj.面部的，表面的；脸的，面部的 n.美容，美颜；脸部按摩"
+    },
+    {
+      "word": "wrinkle",
+      "definition": "n.皱纹 vi.起皱 vt.使起皱纹"
+    },
+    {
+      "word": "ankle",
+      "definition": "n.踝关节，踝"
+    },
+    {
+      "word": "heel",
+      "definition": "n.脚后跟；踵 vt.倾倒 vi.倾倒"
+    },
+    {
+      "word": "wrist",
+      "definition": "n.手腕；腕关节 vt.用腕力移动"
+    },
+    {
+      "word": "upper",
+      "definition": "adj.上面的, 上部的; 较高的 n.鞋面; 兴奋剂"
+    },
+    {
+      "word": "bride",
+      "definition": "n.新娘; 姑娘, 女朋友"
+    },
+    {
+      "word": "bridegroom",
+      "definition": "n.新郎"
+    },
+    {
+      "word": "granny",
+      "definition": "n.奶奶; 外婆; 婆婆妈妈的人"
+    },
+    {
+      "word": "husband",
+      "definition": "n.丈夫 v.节约使用 (资源)"
+    },
+    {
+      "word": "catalogue",
+      "definition": "n.目录; (美) 大学情况一览 vt.把...编入目录"
+    },
+    {
+      "word": "bachelor",
+      "definition": "n.学士; 单身汉; 小雄兽"
+    },
+    {
+      "word": "crowd",
+      "definition": "n.人群; 观众; 一伙人; 众多 v. (使)挤满; 聚集"
+    },
+    {
+      "word": "civilian",
+      "definition": "n.平民, 百姓 adj.民用的, 百姓的"
+    },
+    {
+      "word": "enemy",
+      "definition": "n.敌人, 仇敌; 敌军 adj.敌人的"
+    },
+    {
+      "word": "fellow",
+      "definition": "n.男人, 家伙; 同事; 会员 adj.同类的, 同伴的"
+    },
+    {
+      "word": "statesman",
+      "definition": "n.政治家; 国务活动家"
+    },
+    {
+      "word": "acre",
+      "definition": "n.土地, 地产; 英亩"
+    },
+    {
+      "word": "fertile",
+      "definition": "adj.富饶的, 肥沃的; 能生育的"
+    },
+    {
+      "word": "ripe",
+      "definition": "adj.熟的, 成熟的; 时机成熟的"
+    },
+    {
+      "word": "ripen",
+      "definition": "vt.使成熟 vi.成熟"
+    },
+    {
+      "word": "sow",
+      "definition": "vt.播种；散布；使密布 vi.播种 n.母猪"
+    },
+    {
+      "word": "straw",
+      "definition": "n.稻草；吸管；一文不值的东西 adj.稻草的"
+    },
+    {
+      "word": "wheat",
+      "definition": "n.小麦；小麦色"
+    },
+    {
+      "word": "bonus",
+      "definition": "n.奖金；红利；额外津贴"
+    },
+    {
+      "word": "pension",
+      "definition": "n.退休金，抚恤金；津贴；膳宿费 vt.发给养老金"
+    },
+    {
+      "word": "salary",
+      "definition": "n.薪水，工资 v.给……薪金"
+    },
+    {
+      "word": "tax",
+      "definition": "n.税金；重负 v.向……课税；使……负担重"
+    },
+    {
+      "word": "wage",
+      "definition": "n.工资；报酬；代价 v.进行，发动（运动、战争等）"
+    },
+    {
+      "word": "glory",
+      "definition": "n.光荣，荣誉；赞颂 vi.自豪，骄傲；狂喜"
+    },
+    {
+      "word": "limit",
+      "definition": "n.限制；限度；界线 vt.限制；限定"
+    },
+    {
+      "word": "multiply",
+      "definition": "vt.乘；使增加；使繁殖；使相乘 vi.乘；繁殖；增加"
+    },
+    {
+      "word": "conscious",
+      "definition": "adj.意识到的；故意的；神志清醒的"
+    },
+    {
+      "word": "enrich",
+      "definition": "vt.使充实；使肥沃；使富足"
+    },
+    {
+      "word": "major",
+      "definition": "adj.主要的；重要的；主修的；较多的 n.成年人；主修科目；少校"
+    },
+    {
+      "word": "supreme",
+      "definition": "adj.最高的；至高的；最重要的 n.至高；霸权"
+    },
+    {
+      "word": "vital",
+      "definition": "adj.至关重要的；生死攸关的；有活力的"
+    },
+    {
+      "word": "warehouse",
+      "definition": "n.仓库；货栈；大商店 vt.储入仓库"
+    },
+    {
+      "word": "yield",
+      "definition": "v.出产；产出；屈服；放弃；给……让路 n.产量；利润"
+    },
+    {
+      "word": "dozen",
+      "definition": "n.十二个，一打 adj.一打的"
+    },
+    {
+      "word": "heap",
+      "definition": "n.堆：许多：累积 vt.堆；堆积 vi.堆起来"
+    },
+    {
+      "word": "loaf",
+      "definition": "n.条，一条面包；块；游荡 vt.游荡；游手好闲；虚度光阴"
+    },
+    {
+      "word": "majority",
+      "definition": "n.多数；成年"
+    },
+    {
+      "word": "minority",
+      "definition": "n.少数民族；少数派；未成年"
+    },
+    {
+      "word": "pile",
+      "definition": "n.堆；大量；建筑群 vt.累积；打桩于 vi.挤；堆积"
+    },
+    {
+      "word": "rank",
+      "definition": "n.排；等级；军衔；队列 adj.讨厌的；繁茂的 vt.排列"
+    },
+    {
+      "word": "atmosphere",
+      "definition": "n.气氛；大气；空气"
+    },
+    {
+      "word": "ecology",
+      "definition": "n.生态学；社会生态学"
+    },
+    {
+      "word": "existence",
+      "definition": "n.存在，实在；生存，生活；存在物"
+    },
+    {
+      "word": "ethical",
+      "definition": "adj.伦理的；道德的；凭处方出售的 n.处方药"
+    },
+    {
+      "word": "potentially",
+      "definition": "adv.可能地，潜在地"
+    },
+    {
+      "word": "track",
+      "definition": "n.轨道；足迹，踪迹；小道 vt.追踪；通过；循路而行"
+    },
+    {
+      "word": "spit",
+      "definition": "vi.吐痰；吐口水；发出劈啪声 vt.吐，吐出；发射 n.唾液"
+    },
+    {
+      "word": "chilly",
+      "definition": "adj.寒冷的；怕冷的"
+    },
+    {
+      "word": "choke",
+      "definition": "vt.呛；使窒息；阻塞；抑制；扑灭 vi.窒息；阻塞 n.窒息；阻气门"
+    },
+    {
+      "word": "pulse",
+      "definition": "n.[电子]脉冲；脉搏 vt.使跳动 vi.跳动，脉跳"
+    },
+    {
+      "word": "clinic",
+      "definition": "n.临床；诊所；卫生所，卫生室；医务室"
+    },
+    {
+      "word": "disturb",
+      "definition": "vt.打扰；妨碍；使不安；弄乱；使恼怒 vi.打扰；妨碍"
+    },
+    {
+      "word": "cheque",
+      "definition": "n.支票"
+    },
+    {
+      "word": "armchair",
+      "definition": "n.扶手椅，单人沙发 adj.不切实际的"
+    },
+    {
+      "word": "carpet",
+      "definition": "n.地毯；地毯状覆盖物 v.把地毯铺在……上；斥责"
+    },
+    {
+      "word": "drawer",
+      "definition": "n.抽屉；开票人；出票人；起草者"
+    },
+    {
+      "word": "triathlon",
+      "definition": "n.三项全能运动"
+    },
+    {
+      "word": "gap",
+      "definition": "n.间隙；缺口；差距；分歧 vi.裂开"
+    },
+    {
+      "word": "inch",
+      "definition": "n.英寸；身高；少许 vt.使缓慢地移动 vi.慢慢前进"
+    },
+    {
+      "word": "fierce",
+      "definition": "adj.凶猛的；猛烈的；暴躁的"
+    },
+    {
+      "word": "thorough",
+      "definition": "adj.彻底的；十分的；周密的"
+    },
+    {
+      "word": "totally",
+      "definition": "adv.完全地"
+    },
+    {
+      "word": "urgent",
+      "definition": "adj.紧急的；急迫的"
+    },
+    {
+      "word": "violent",
+      "definition": "adj.暴力的；猛烈的"
+    },
+    {
+      "word": "racial",
+      "definition": "adj.种族的；人种的"
+    },
+    {
+      "word": "Arctic",
+      "definition": "adj.北极的；生活在北极区的 n.北极区"
+    },
+    {
+      "word": "Atlantic",
+      "definition": "n.大西洋 adj.大西洋的"
+    },
+    {
+      "word": "World Economic Forum",
+      "definition": "(瑞士达沃斯) 世界经济论坛"
+    },
+    {
+      "word": "possess",
+      "definition": "vt.控制；使掌握；持有；迷住；拥有，具备"
+    },
+    {
+      "word": "react",
+      "definition": "vi.反应，作出反应；产生（化学）反应"
+    },
+    {
+      "word": "issue",
+      "definition": "n.问题；流出；期号；发行物 vt.发行，发布；发给；放出"
+    },
+    {
+      "word": "maple",
+      "definition": "n.枫树；淡棕色"
+    },
+    {
+      "word": "fond",
+      "definition": "adj.喜欢的；温柔的；宠爱的"
+    },
+    {
+      "word": "centigrade",
+      "definition": "adj.摄氏温度的；百分度的 n.摄氏温标"
+    },
+    {
+      "word": "measure",
+      "definition": "n.测量；措施；程度；尺寸 vt.测量；估量；权衡"
+    },
+    {
+      "word": "via",
+      "definition": "prep.经由，通过；凭借，借助于"
+    },
+    {
+      "word": "equal",
+      "definition": "adj.平等的；相等的；胜任的 vt.等于；比得上 n.对手；匹敌"
+    }
+  ],
+  "pdfRanges": [
+    {
+      "name": "1-10",
+      "start": 0,
+      "end": 61
+    },
+    {
+      "name": "11-20",
+      "start": 61,
+      "end": 135
+    },
+    {
+      "name": "21-30",
+      "start": 135,
+      "end": 174
+    },
+    {
+      "name": "31-40",
+      "start": 174,
+      "end": 226
+    },
+    {
+      "name": "41-50",
+      "start": 226,
+      "end": 257
+    },
+    {
+      "name": "51-60",
+      "start": 257,
+      "end": 291
+    },
+    {
+      "name": "61-70",
+      "start": 291,
+      "end": 321
+    },
+    {
+      "name": "71-80",
+      "start": 321,
+      "end": 355
+    },
+    {
+      "name": "81-90",
+      "start": 355,
+      "end": 378
+    },
+    {
+      "name": "91-100",
+      "start": 378,
+      "end": 399
+    }
+  ]
+}

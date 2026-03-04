@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📚 词典笔 · 独立词库版（含测验+收藏）</title>
+    <style>
+        /* 与原样式相同，此处省略，可在实际使用时复制之前完整的样式 */
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Inter', system-ui, sans-serif; background: linear-gradient(145deg, #f0f4fa 0%, #e6ecf5 100%); min-height: 100vh; display: flex; justify-content: center; align-items: center; padding: 16px; }
+        .app-container { width: 100%; max-width: 800px; background: rgba(255,255,255,0.6); backdrop-filter: blur(12px); border-radius: 48px; box-shadow: 0 25px 50px -10px rgba(0,20,40,0.25); padding: 28px 24px 36px; border: 1px solid rgba(255,255,255,0.7); }
+        h1 { font-size: 2rem; font-weight: 600; color: #1a2e45; display: flex; align-items: center; gap: 8px; margin-bottom: 12px; flex-wrap: wrap; }
+        h1 span { background: #2b3f5c; color: white; font-size: 0.9rem; padding: 4px 14px; border-radius: 60px; margin-left: 12px; }
+        .pdf-tabs { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 20px 8px; justify-content: center; }
+        .pdf-btn { background: rgba(255,255,255,0.7); border: 1px solid rgba(255,255,255,0.9); padding: 8px 16px; border-radius: 40px; font-weight: 550; font-size: 0.95rem; color: #1e3349; cursor: pointer; transition: 0.15s; backdrop-filter: blur(4px); }
+        .pdf-btn.active { background: #1e3349; color: white; border-color: #3f5a7a; box-shadow: 0 10px 15px -6px #1e3349aa; }
+        .mode-tabs { display: flex; gap: 12px; margin: 0 0 20px 8px; justify-content: center; }
+        .mode-btn { background: rgba(255,255,255,0.5); border: 1px solid rgba(255,255,255,0.7); padding: 8px 24px; border-radius: 40px; font-weight: 600; color: #1e3349; cursor: pointer; }
+        .mode-btn.active { background: #1e3349; color: white; border-color: #3f5a7a; }
+        .card { background: white; border-radius: 40px; padding: 32px 24px; box-shadow: 0 15px 30px -12px rgba(0,20,40,0.2); margin-bottom: 28px; border: 1px solid rgba(255,255,255,0.8); }
+        .word-header { display: flex; align-items: center; justify-content: center; gap: 20px; margin-bottom: 28px; flex-wrap: wrap; }
+        .word-display { font-size: 4rem; font-weight: 700; color: #0b1c2e; line-height: 1.2; word-break: break-word; letter-spacing: -0.02em; }
+        .speak-btn { background: #eef3fc; border: none; border-radius: 60px; width: 64px; height: 64px; font-size: 2rem; cursor: pointer; box-shadow: 0 8px 16px rgba(0,20,40,0.1); display: flex; align-items: center; justify-content: center; color: #1e3349; border: 1px solid rgba(255,255,255,0.8); }
+        .speak-btn:hover { background: #dae6f8; transform: scale(1.05); }
+        .favorite-btn { background: #fff0e6; border: none; border-radius: 60px; width: 64px; height: 64px; font-size: 2rem; cursor: pointer; box-shadow: 0 8px 16px rgba(0,20,40,0.1); display: flex; align-items: center; justify-content: center; color: #c44f4f; border: 1px solid rgba(255,255,255,0.8); }
+        .favorite-btn.active { background: #fce4e4; color: #b33; }
+        .definition-area { background: #f2f6fd; border-radius: 28px; padding: 24px 22px; font-size: 1.3rem; line-height: 1.5; color: #1a2e45; border: 1px solid #d9e2f0; max-height: 260px; overflow-y: auto; font-family: 'Georgia', serif; }
+        .quiz-options { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 24px; }
+        .quiz-option { background: #eef3fc; border: 2px solid #bdc9db; border-radius: 30px; padding: 18px; font-size: 1.2rem; text-align: center; cursor: pointer; transition: 0.1s; }
+        .quiz-option:hover { background: #d9e3f0; transform: translateY(-2px); }
+        .quiz-option.correct { background: #b8e0b8; border-color: #2c6e2c; }
+        .quiz-option.wrong { background: #f4baba; border-color: #a13d3d; }
+        .button-group { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin: 28px 0 20px; }
+        .btn { background: white; border: none; border-radius: 60px; padding: 14px 26px; font-size: 1.1rem; font-weight: 550; color: #1e3349; cursor: pointer; box-shadow: 0 6px 14px rgba(0,15,30,0.1); display: inline-flex; align-items: center; gap: 10px; border: 1px solid rgba(255,255,255,0.7); flex: 1 0 auto; min-width: 130px; }
+        .btn-primary { background: #1e3349; color: white; box-shadow: 0 10px 18px -8px #1e3349aa; }
+        .progress-indicator { text-align: center; font-weight: 500; color: #3f5a7a; background: rgba(255,255,255,0.7); padding: 12px 18px; border-radius: 60px; width: fit-content; margin: 12px auto 0; font-size: 1.05rem; }
+        .footer-note { text-align: center; color: #5b6f8a; margin-top: 22px; font-size: 0.9rem; }
+        .loading { text-align: center; padding: 40px; font-size: 1.5rem; color: #1e3349; }
+        .hidden { display: none; }
+    </style>
+</head>
+<body>
+<div class="app-container" id="app">
+    <h1>✦ 单词本·独立词库 <span id="pdf-badge">加载中...</span></h1>
+
+    <!-- 加载提示 -->
+    <div id="loading" class="loading">⏳ 正在加载词库，请稍候...</div>
+
+    <!-- 主要界面（初始隐藏） -->
+    <div id="mainUI" class="hidden">
+        <!-- PDF 切换按钮组 -->
+        <div class="pdf-tabs" id="pdf-tabs-container"></div>
+
+        <!-- 模式切换：学习 / 测验 / 收藏 -->
+        <div class="mode-tabs">
+            <button class="mode-btn active" data-mode="learn">📖 学习</button>
+            <button class="mode-btn" data-mode="quiz">🧪 测验</button>
+            <button class="mode-btn" data-mode="favorite">📋 收藏夹</button>
+        </div>
+
+        <!-- 卡片区域 -->
+        <div class="card" id="flashcard">
+            <div class="word-header">
+                <div class="word-display" id="wordDisplay">---</div>
+                <button class="speak-btn" id="speakBtn" title="朗读">🔊</button>
+                <button class="favorite-btn" id="favoriteBtn" title="收藏">❤️</button>
+            </div>
+            <div class="definition-area" id="definitionDisplay">
+                <span class="def-placeholder">✨ 点击卡片显示释义</span>
+            </div>
+            <!-- 测验选项区域（默认隐藏） -->
+            <div id="quizArea" class="quiz-options hidden"></div>
+        </div>
+
+        <!-- 操作按钮组（学习/收藏模式下可见） -->
+        <div id="learnControls" class="button-group">
+            <button class="btn" id="prevBtn"><span class="icon">←</span> 上一个</button>
+            <button class="btn btn-primary" id="revealBtn">🔍 显示释义</button>
+            <button class="btn" id="nextBtn">下一个 <span class="icon">→</span></button>
+        </div>
+        <div id="extraControls" class="button-group">
+            <button class="btn" id="randomBtn">🎲 随机单词</button>
+        </div>
+
+        <!-- 测验专用控制（初始隐藏） -->
+        <div id="quizControls" class="button-group hidden">
+            <button class="btn" id="nextQuizBtn">▶️ 下一题</button>
+            <button class="btn" id="showAnswerBtn">🔍 显示答案</button>
+        </div>
+
+        <div class="progress-indicator" id="progress">
+            <span id="currentIndex">0</span> / <span id="totalCount">0</span>
+        </div>
+    </div>
+    <div class="footer-note">⚡ 点击❤️收藏 · 测验模式检验自己</div>
+</div>
+
+<script>
+    (function() {
+        const app = document.getElementById('app');
+        const loadingDiv = document.getElementById('loading');
+        const mainUI = document.getElementById('mainUI');
+
+        // 全局数据
+        let words = [];
+        let pdfRanges = [];
+        let favorites = new Set();          // 存储收藏的全局索引
+
+        // 状态变量
+        let activePdfIndex = 0;
+        let activeWords = [];                // 当前显示的单词子集（根据分册或收藏）
+        let currentIdx = 0;
+        let definitionVisible = false;
+        let currentMode = 'learn';            // 'learn', 'quiz', 'favorite'
+
+        // 测验专用
+        let quizOptions = [];                 // 当前题目的四个选项
+        let correctAnswerIndex = 0;
+        let quizAnswered = false;
+        let quizSelected = -1;
+
+        // DOM 元素
+        const pdfTabs = document.getElementById('pdf-tabs-container');
+        const pdfBadge = document.getElementById('pdf-badge');
+        const wordDisplay = document.getElementById('wordDisplay');
+        const definitionDisplay = document.getElementById('definitionDisplay');
+        const speakBtn = document.getElementById('speakBtn');
+        const favoriteBtn = document.getElementById('favoriteBtn');
+        const prevBtn = document.getElementById('prevBtn');
+        const nextBtn = document.getElementById('nextBtn');
+        const randomBtn = document.getElementById('randomBtn');
+        const revealBtn = document.getElementById('revealBtn');
+        const learnControls = document.getElementById('learnControls');
+        const extraControls = document.getElementById('extraControls');
+        const quizControls = document.getElementById('quizControls');
+        const quizArea = document.getElementById('quizArea');
+        const nextQuizBtn = document.getElementById('nextQuizBtn');
+        const showAnswerBtn = document.getElementById('showAnswerBtn');
+        const currentSpan = document.getElementById('currentIndex');
+        const totalSpan = document.getElementById('totalCount');
+        const modeBtns = document.querySelectorAll('.mode-btn');
+
+        // 从 localStorage 加载收藏
+        function loadFavorites() {
+            try {
+                const saved = localStorage.getItem('wordFavorites');
+                if (saved) {
+                    favorites = new Set(JSON.parse(saved));
+                } else {
+                    favorites.clear();
+                }
+            } catch (e) {
+                favorites.clear();
+            }
+        }
+
+        function saveFavorites() {
+            localStorage.setItem('wordFavorites', JSON.stringify(Array.from(favorites)));
+        }
+
+        // 切换当前激活的单词集（根据模式与分册）
+        function updateActiveWords() {
+            if (currentMode === 'favorite') {
+                // 收藏夹模式：只显示收藏的单词，按照全局索引排序
+                const favArray = Array.from(favorites).sort((a,b) => a - b);
+                activeWords = favArray.map(idx => words[idx]);
+            } else {
+                // 学习/测验模式：当前分册的单词
+                activeWords = words.slice(pdfRanges[activePdfIndex].start, pdfRanges[activePdfIndex].end);
+            }
+            if (activeWords.length === 0) {
+                // 收藏夹为空时显示提示
+                wordDisplay.textContent = '暂无收藏';
+                definitionDisplay.innerHTML = '<span class="def-placeholder">快去添加一些单词吧 ❤️</span>';
+                currentSpan.textContent = '0';
+                totalSpan.textContent = '0';
+                return;
+            }
+            // 确保 currentIdx 不越界
+            if (currentIdx >= activeWords.length) currentIdx = 0;
+            updateDisplay();
+        }
+
+        // 更新显示（单词、释义、收藏按钮状态）
+        function updateDisplay() {
+            if (activeWords.length === 0) {
+                if (currentMode === 'favorite') {
+                    wordDisplay.textContent = '暂无收藏';
+                    definitionDisplay.innerHTML = '<span class="def-placeholder">快去添加一些单词吧 ❤️</span>';
+                }
+                return;
+            }
+            const wordObj = activeWords[currentIdx];
+            const globalIdx = words.findIndex(w => w.word === wordObj.word && w.definition === wordObj.definition); // 稳妥方式
+            wordDisplay.textContent = wordObj.word;
+            if (definitionVisible) {
+                definitionDisplay.textContent = wordObj.definition;
+            } else {
+                definitionDisplay.innerHTML = '<span class="def-placeholder">✨ 点击卡片显示释义</span>';
+            }
+            // 更新收藏按钮样式
+            if (favorites.has(globalIdx)) {
+                favoriteBtn.classList.add('active');
+            } else {
+                favoriteBtn.classList.remove('active');
+            }
+            // 更新进度
+            currentSpan.textContent = currentIdx + 1;
+            totalSpan.textContent = activeWords.length;
+            pdfBadge.textContent = currentMode === 'favorite' ? '收藏夹' : pdfRanges[activePdfIndex].name;
+        }
+
+        // 切换模式
+        function setMode(mode) {
+            currentMode = mode;
+            modeBtns.forEach(btn => {
+                if (btn.dataset.mode === mode) btn.classList.add('active');
+                else btn.classList.remove('active');
+            });
+            // 显示/隐藏相关控件
+            if (mode === 'quiz') {
+                learnControls.classList.add('hidden');
+                extraControls.classList.add('hidden');
+                quizControls.classList.remove('hidden');
+                quizArea.classList.remove('hidden');
+                definitionDisplay.classList.add('hidden'); // 测验时隐藏释义区
+                prepareQuiz();
+            } else {
+                learnControls.classList.remove('hidden');
+                extraControls.classList.remove('hidden');
+                quizControls.classList.add('hidden');
+                quizArea.classList.add('hidden');
+                definitionDisplay.classList.remove('hidden');
+                definitionVisible = false;
+                updateActiveWords(); // 重新加载当前分册或收藏
+            }
+        }
+
+        // 准备测验：基于当前 activeWords 随机选一个作为题目
+        function prepareQuiz() {
+            if (activeWords.length === 0) {
+                quizArea.innerHTML = '<div class="quiz-option">没有可测验的单词</div>';
+                return;
+            }
+            // 随机选择一个单词作为正确单词
+            const correctIdx = Math.floor(Math.random() * activeWords.length);
+            const correctWord = activeWords[correctIdx];
+            // 随机生成三个其他选项（从所有单词中随机，但避免重复）
+            let otherWords = [];
+            const allWordsCopy = [...words];
+            // 移除正确单词
+            const otherCandidates = allWordsCopy.filter(w => w.word !== correctWord.word);
+            // 随机取三个不重复的
+            while (otherWords.length < 3 && otherCandidates.length > 0) {
+                const rand = Math.floor(Math.random() * otherCandidates.length);
+                otherWords.push(otherCandidates.splice(rand, 1)[0]);
+            }
+            // 构建选项数组（四个单词）
+            let options = [correctWord, ...otherWords];
+            // 打乱顺序
+            for (let i = options.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [options[i], options[j]] = [options[j], options[i]];
+            }
+            // 记录正确选项的索引
+            correctAnswerIndex = options.findIndex(opt => opt.word === correctWord.word);
+            quizOptions = options;
+            quizAnswered = false;
+            quizSelected = -1;
+            renderQuiz();
+        }
+
+        function renderQuiz() {
+            if (!quizArea) return;
+            quizArea.innerHTML = '';
+            quizOptions.forEach((opt, idx) => {
+                const btn = document.createElement('div');
+                btn.className = 'quiz-option';
+                btn.textContent = opt.word;
+                btn.dataset.index = idx;
+                btn.addEventListener('click', () => {
+                    if (quizAnswered) return;
+                    quizAnswered = true;
+                    quizSelected = idx;
+                    // 高亮正确/错误
+                    const allOpts = document.querySelectorAll('.quiz-option');
+                    allOpts.forEach(opt => opt.classList.remove('correct', 'wrong'));
+                    allOpts[correctAnswerIndex].classList.add('correct');
+                    if (idx !== correctAnswerIndex) {
+                        allOpts[idx].classList.add('wrong');
+                    } else {
+                        allOpts[idx].classList.add('correct');
+                    }
+                });
+                quizArea.appendChild(btn);
+            });
+        }
+
+        // 收藏/取消收藏
+        function toggleFavorite() {
+            if (activeWords.length === 0) return;
+            const wordObj = activeWords[currentIdx];
+            const globalIdx = words.findIndex(w => w.word === wordObj.word && w.definition === wordObj.definition);
+            if (favorites.has(globalIdx)) {
+                favorites.delete(globalIdx);
+            } else {
+                favorites.add(globalIdx);
+            }
+            saveFavorites();
+            // 更新按钮样式
+            favoriteBtn.classList.toggle('active');
+        }
+
+        // 朗读
+        function speakCurrentWord() {
+            if (activeWords.length === 0) return;
+            const word = activeWords[currentIdx].word;
+            if ('speechSynthesis' in window) {
+                window.speechSynthesis.cancel();
+                const utterance = new SpeechSynthesisUtterance(word);
+                utterance.lang = 'en-US';
+                utterance.rate = 0.9;
+                window.speechSynthesis.speak(utterance);
+            } else {
+                alert('浏览器不支持语音朗读');
+            }
+        }
+
+        // 下一题
+        function nextQuiz() {
+            prepareQuiz();
+        }
+
+        // 显示答案（在测验中直接高亮正确选项）
+        function showQuizAnswer() {
+            if (quizAnswered) return;
+            quizAnswered = true;
+            const allOpts = document.querySelectorAll('.quiz-option');
+            allOpts.forEach(opt => opt.classList.remove('correct', 'wrong'));
+            allOpts[correctAnswerIndex].classList.add('correct');
+        }
+
+        // 加载数据
+        async function loadData() {
+            try {
+                const response = await fetch('data.json');
+                if (!response.ok) throw new Error('无法加载 data.json');
+                const data = await response.json();
+                words = data.words;
+                pdfRanges = data.pdfRanges;
+                // 初始化收藏
+                loadFavorites();
+                // 设置默认分册
+                activePdfIndex = 0;
+                activeWords = words.slice(pdfRanges[0].start, pdfRanges[0].end);
+                currentIdx = 0;
+                definitionVisible = false;
+                // 渲染分册按钮
+                renderPdfButtons();
+                // 显示主界面
+                loadingDiv.classList.add('hidden');
+                mainUI.classList.remove('hidden');
+                updateDisplay();
+            } catch (error) {
+                loadingDiv.innerHTML = `❌ 加载失败：${error.message}<br>请确保 data.json 文件存在且格式正确。`;
+            }
+        }
+
+        function renderPdfButtons() {
+            pdfTabs.innerHTML = '';
+            pdfRanges.forEach((range, idx) => {
+                const btn = document.createElement('button');
+                btn.className = `pdf-btn ${idx === activePdfIndex ? 'active' : ''}`;
+                btn.textContent = range.name;
+                btn.addEventListener('click', () => {
+                    if (currentMode === 'favorite') {
+                        // 收藏夹模式下，切换分册无效，可提示或忽略
+                        return;
+                    }
+                    activePdfIndex = idx;
+                    document.querySelectorAll('.pdf-btn').forEach((b, i) => {
+                        if (i === activePdfIndex) b.classList.add('active');
+                        else b.classList.remove('active');
+                    });
+                    updateActiveWords();
+                });
+                pdfTabs.appendChild(btn);
+            });
+        }
+
+        // 事件绑定
+        speakBtn.addEventListener('click', (e) => { e.stopPropagation(); speakCurrentWord(); });
+        favoriteBtn.addEventListener('click', (e) => { e.stopPropagation(); toggleFavorite(); });
+        revealBtn.addEventListener('click', () => { definitionVisible = true; updateDisplay(); });
+        prevBtn.addEventListener('click', () => { if (activeWords.length) { currentIdx = (currentIdx - 1 + activeWords.length) % activeWords.length; definitionVisible = false; updateDisplay(); } });
+        nextBtn.addEventListener('click', () => { if (activeWords.length) { currentIdx = (currentIdx + 1) % activeWords.length; definitionVisible = false; updateDisplay(); } });
+        randomBtn.addEventListener('click', () => { if (activeWords.length) { currentIdx = Math.floor(Math.random() * activeWords.length); definitionVisible = false; updateDisplay(); } });
+        document.getElementById('flashcard').addEventListener('click', () => { if (currentMode !== 'quiz') { definitionVisible = true; updateDisplay(); } });
+
+        modeBtns.forEach(btn => {
+            btn.addEventListener('click', () => setMode(btn.dataset.mode));
+        });
+
+        nextQuizBtn.addEventListener('click', nextQuiz);
+        showAnswerBtn.addEventListener('click', showQuizAnswer);
+
+        // 启动加载
+        loadData();
+    })();
+</script>
+</body>
+</html>
